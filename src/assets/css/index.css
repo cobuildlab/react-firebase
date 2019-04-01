@@ -1,0 +1,500 @@
+a {
+    color: #002a40;
+    text-decoration: none;
+    background-color: transparent;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+a:hover {
+    color: #002a40 !important;
+    text-decoration: none;
+}
+
+a.white {
+    color: white;
+    text-decoration: underline;
+    background-color: transparent;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+a.white:hover {
+    color: white !important;
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #002a3f;
+}
+
+h4.blue-text {
+    color: #002a3f;
+    font-size: 12px;
+}
+
+h2.indicator {
+    font-size: 26px;
+}
+
+.bg-left {
+    background-color: #002a3f;
+}
+
+.logo-link:hover {
+    color: #fff;
+}
+
+.h-100 {
+    height: 100vh !important;
+}
+
+.round {
+    border-radius: 50%
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.text-right {
+    position: right !important;
+}
+
+.mb-login {
+    margin-bottom: 10% !important;
+}
+
+.flex-d {
+    flex-direction: column;
+}
+
+.left, .right {
+    width: 50vh;
+}
+
+.content-between {
+    justify-content: space-between
+}
+
+.vertical-align {
+    vertical-align: middle
+}
+
+.title-cooming-soon {
+    font-size: 30px;
+}
+
+.wrapper {
+    padding: 80px 80px 80px 80px;
+}
+
+.content-check {
+    position: relative !important;
+    top: -25px !important;
+}
+
+.text-login {
+    color: #002a3f;
+    font-weight: bolder;
+}
+
+.logo-container {
+    color: white;
+    position: relative;
+}
+
+.logo-text {
+    color: #fff;
+    font-size: 27px;
+}
+
+.logo-link {
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    bottom: -270px;
+    padding-left: 15vh
+}
+
+.home-logo {
+    width: 417px;
+    height: 206px;
+}
+
+.img-style {
+    size: 300px;
+}
+
+.btn {
+    padding: 0.675rem 0.75rem
+}
+
+.b-button {
+    background-color: #002a3f;
+    transition-duration: 0.4s;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #002a3f;
+    border-color: #002a3f;
+}
+
+.btn-primary:hover {
+    color: #fff !important;
+    background-color: #002a3f;
+    border-color: #002a3f;
+}
+
+.b-button:hover {
+    background-color: white;
+    color: #002a3f;
+    border-color: #002a3f;
+}
+
+.btn-outline-primary {
+    color: #002a3f;
+    border-color: #002a3f;
+}
+
+.w-button {
+    background-color: white;
+    transition-duration: 0.4s;
+    padding: 10px 10px !important;
+}
+
+.w-button:hover {
+    background-color: #002a3f;
+}
+
+.link-button-outlined {
+    color: #002a3f;
+    border-color: #002a3f;
+}
+
+.link-button-outlined:hover {
+    background-color: #002a3f;
+    color: #fff !important;
+}
+
+.primary-button {
+    padding: 7px 10px;
+}
+
+.profile-content {
+    width: 400px;
+}
+
+.btn-block + .btn-block {
+    margin-top: 0 !important;
+}
+
+/* sidebar */
+.title-menu {
+    background-color: #002a3f;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 20px;
+    margin-left: 25px;
+}
+
+.item-name-user {
+    position: relative;
+    top: 5px;
+}
+
+.item-notification {
+    position: relative;
+    top: 3px;
+}
+
+.divider-nav {
+    border-right: 1px solid #ccc;
+}
+
+.bg-menu {
+    background: #002a3f !important;
+    width: 180px;
+}
+
+.item-list, .list-group-item {
+    position: relative !important;
+    display: block !important;
+    padding: 0.75rem 2.25rem !important;
+    margin-bottom: -1px !important;
+    background-color: #002a3f !important;
+    color: #fff !important;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.nav {
+    box-shadow: 1px 1px 5px 1px #0000002e;
+    padding: 5px;
+    padding-left: 20px;
+    z-index: 3;
+}
+
+.home-text {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.item-content {
+    box-shadow: 1px 1px 5px 1px #0000002e;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.item-textgray {
+    font-weight: bold;
+    color: #999999;
+}
+
+.item-textgray-small {
+    font-weight: bold;
+    font-size: 11px;
+    padding: 0px;
+    margin: 1em 0 0 0;
+}
+
+.item-textback {
+    font-weight: lighter
+}
+
+.item-profile {
+    background-image: url('../image/picture.png');
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.item-my-profile {
+    background-image: url('../image/picture.png');
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.button-right {
+    float: right;
+}
+
+.list-group-item:hover {
+    background-color: #193044 !important;
+    border-left: 2px solid #fff;
+}
+
+.list-group-item.active {
+    background-color: #193044 !important;
+    border-left: 2px solid #fff !important;
+    border-color: transparent;
+}
+
+/* sub bar */
+.sub-bar {
+    z-index: 2;
+    position: absolute;
+    padding-top: 55px;
+    top: 0px;
+    bottom: 0px;
+    transition: -webkit-transform 0.3s ease-out 0s;
+    will-change: transform;
+    overflow-y: auto;
+    left: 0px;
+    transform: translateX(0%);
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 4px;
+    width: 350px;
+    background-color: #f2f4f5;
+}
+
+.sub-list-item {
+    position: relative !important;
+    display: block !important;
+    padding: 0.70rem 2.5rem !important;
+    margin-bottom: -1px !important;
+    background-color: #f2f4f5 !important;
+    color: #002a40 !important;
+    border: none;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.sub-list-item:hover {
+    background-color: #abb4bc !important;
+    color: #fff !important;
+    border-left: 0
+}
+
+.sub-list-item.active {
+    background-color: #abb4bc !important;
+    color: #fff !important;
+    border-left: 0 !important;
+}
+
+.content-sub-bar {
+    padding-left: 380px;
+    padding-right: 10px;
+    padding-top: 10px !important;
+    margin-bottom: 30px !important;
+}
+
+.driver-sub-bar {
+    padding-left: 380px;
+    padding-right: 10px;
+    padding-top: 70px !important;
+    margin-bottom: 30px !important;
+}
+
+.driver {
+    z-index: 1;
+    position: absolute;
+    padding-top: 10px;
+    top: 0px;
+    bottom: 0px;
+    transition: -webkit-transform 0.3s ease-out 0s;
+    will-change: transform;
+    overflow-y: auto;
+    left: 0;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    width: 100.7%;
+}
+
+/* Button style */
+.group {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.input {
+    font-size: 12px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #002a3f;
+}
+
+.input:focus {
+    outline: none;
+}
+
+/* LABEL ======================================= */
+label {
+    color: #999;
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+.input:focus ~ label, .input:valid ~ label {
+    top: -20px;
+    font-size: 12px;
+    color: #002a3f;
+}
+
+/* BOTTOM BARS ================================= */
+.bar {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.bar:before, .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #002a3f;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+    left: 50%;
+}
+
+.bar:after {
+    right: 50%;
+}
+
+/* active state */
+.input:focus ~ .bar:before, .input:focus ~ .bar:after {
+    width: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/* active state */
+.input:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: #002a3f;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@-moz-keyframes inputHighlighter {
+    from {
+        background: #002a3f;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: #002a3f;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+span.normal-text{
+    font-size: 0.8rem;
+}
